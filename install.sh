@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo -v
 
+sudo apt-get install xdotool xsel
+
 echo "Tornando arquivo executável."
 chmod +x smash.sh
 
